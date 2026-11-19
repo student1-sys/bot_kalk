@@ -1,0 +1,38 @@
+# --- Секрети: ніколи не комітити ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+google-creds*.json
+token.json
+
+# --- Локальні налаштування Claude Code ---
+.claude/settings.local.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Node.js ---
+node_modules/
+
+# --- Логи й бази даних ---
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# --- Тимчасові файли Office ---
+~$*
+
+# --- Системні файли ---
+.DS_Store
+Thumbs.db
+desktop.ini
